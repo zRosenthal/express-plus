@@ -1,0 +1,38 @@
+{
+  "name": "express-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --compilers ts:ts-node/register test/**/*.test.ts",
+    "start": "nodemon dist/index.js",
+    "postinstall": "typings install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.10.2",
+    "eslint-config-standard": "^6.2.1",
+    "eslint-plugin-promise": "^3.3.2",
+    "eslint-plugin-standard": "^2.0.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.1",
+    "mocha": "^3.1.2",
+    "ts-node": "^1.6.1",
+    "typescript": "^2.0.6"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^7.1.9",
+    "mongoose": "^4.6.8",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}

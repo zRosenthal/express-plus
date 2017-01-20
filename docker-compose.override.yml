@@ -1,0 +1,7 @@
+version: '2'
+services:
+  server:
+    volumes:
+      - ./dist:/var/www/app/current/dist
+      - ./package.json:/var/www/app/current/package.json
+      - /var/www/app/current/node_modules

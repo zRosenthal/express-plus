@@ -1,0 +1,24 @@
+{
+  "name": "whos-in-server",
+  "version": "1.0.0",
+  "globalDependencies": {
+    "chai-http": "registry:dt/chai-http#0.0.0+20160317120654",
+    "debug": "registry:dt/debug#0.0.0+20160317120654",
+    "form-data": "registry:dt/form-data#0.0.0+20160724024111",
+    "mocha": "registry:dt/mocha#2.2.5+20161028141524",
+    "mongoose": "registry:dt/mongoose#4.5.9+20161010180758",
+    "morgan": "registry:dt/morgan#1.7.0+20160524142355",
+    "node": "registry:dt/node#6.0.0+20161110151007",
+    "q": "registry:dt/q#0.0.0+20161004185634",
+    "request": "registry:dt/request#0.0.0+20161116202412",
+    "request-promise": "registry:dt/request-promise#4.1.0+20161013074249"
+  },
+  "dependencies": {
+    "body-parser": "registry:npm/body-parser#1.15.2+20161116154925",
+    "chai": "registry:npm/chai#3.5.0+20160723033700",
+    "express": "registry:npm/express#4.14.0+20160925001530",
+    "jsonwebtoken": "registry:npm/jsonwebtoken#7.1.8+20160811031426",
+    "mongodb": "registry:npm/mongodb#2.1.0+20161108182714",
+    "passport": "registry:npm/passport#0.3.0+20161028163825"
+  }
+}
